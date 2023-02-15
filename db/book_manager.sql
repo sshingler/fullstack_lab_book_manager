@@ -3,9 +3,9 @@ DROP TABLE IF EXISTS authors;
 
 
 CREATE TABLE authors (
-    id SERIAL PRIMARY KEY,
-    first_name VARCHAR(255),
-    last_name VARCHAR(255),
+ id SERIAL PRIMARY KEY,
+ first_name VARCHAR(255),
+ last_name VARCHAR(255),
 );
 
 CREATE TABLE books (
